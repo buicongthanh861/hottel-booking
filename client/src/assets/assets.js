@@ -87,17 +87,63 @@ export const cities = [
 
 // Exclusive Offers Dummy Data
 export const exclusiveOffers = [
-    { _id: 1, title: "Summer Escape Package", description: "Enjoy a complimentary night and daily breakfast", priceOff: 25, expiryDate: "Aug 31", image: exclusiveOfferCardImg1 },
-    { _id: 2, title: "Romantic Getaway", description: "Special couples package including spa treatment", priceOff: 20, expiryDate: "Sep 20", image: exclusiveOfferCardImg2 },
-    { _id: 3, title: "Luxury Retreat", description: "Book 60 days in advance and save on your stay at any of our luxury properties worldwide.", priceOff: 30, expiryDate: "Sep 25", image: exclusiveOfferCardImg3 },
-]
+  {
+    _id: 1,
+    title: "Gói Nghỉ Dưỡng Mùa Hè",
+    description: "Tận hưởng một đêm miễn phí và bữa sáng hàng ngày",
+    priceOff: 25,
+    expiryDate: "31 Tháng 8",
+    image: exclusiveOfferCardImg1,
+  },
+  {
+    _id: 2,
+    title: "Kỳ Nghỉ Lãng Mạn",
+    description: "Gói ưu đãi đặc biệt cho các cặp đôi, bao gồm liệu trình spa thư giãn",
+    priceOff: 20,
+    expiryDate: "20 Tháng 9",
+    image: exclusiveOfferCardImg2,
+  },
+  {
+    _id: 3,
+    title: "Kỳ Nghỉ Sang Trọng",
+    description: "Đặt phòng trước 60 ngày để nhận ưu đãi tiết kiệm tại tất cả các khu nghỉ dưỡng cao cấp của chúng tôi trên toàn thế giới.",
+    priceOff: 30,
+    expiryDate: "25 Tháng 9",
+    image: exclusiveOfferCardImg3,
+  },
+];
 
 // Testimonials Dummy Data
 export const testimonials = [
-    { id: 1, name: "Emma Rodriguez", address: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "I've used many booking platforms before, but none compare to the personalized experience and attention to detail that QuickStay provides." },
-    { id: 2, name: "Liam Johnson", address: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "QuickStay exceeded my expectations. The booking process was seamless, and the hotels were absolutely top-notch. Highly recommended!" },
-    { id: 3, name: "Sophia Lee", address: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "Amazing service! I always find the best luxury accommodations through QuickStay. Their recommendations never disappoint!" }
+  {
+    id: 1,
+    name: "Bui Cong Thanh",
+    address: "Ha Long, Quang Ninh",
+    image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
+    rating: 5,
+    review:
+      "Tôi đã từng sử dụng nhiều nền tảng đặt phòng khác nhau, nhưng không nền tảng nào mang lại trải nghiệm cá nhân hóa và sự chăm chút như QuickStay.",
+  },
+  {
+    id: 2,
+    name: "Pham Van Toan ",
+    address: "Tam dao,Vinh Phuc ",
+    image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
+    rating: 4,
+    review:
+      "QuickStay đã vượt xa mong đợi của tôi. Quá trình đặt phòng diễn ra suôn sẻ, và khách sạn thật sự đẳng cấp. Rất đáng để giới thiệu!",
+  },
+  {
+    id: 3,
+    name: "Phung Dinh tuan",
+    address: "Ba Vi, Hà Noi",
+    image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200",
+    rating: 5,
+    review:
+      "Dịch vụ tuyệt vời! Tôi luôn tìm thấy những chỗ nghỉ sang trọng nhất thông qua QuickStay. Gợi ý của họ chưa bao giờ khiến tôi thất vọng!",
+  },
 ];
+
 
 // Facility Icon
 export const facilityIcons = {
@@ -110,11 +156,28 @@ export const facilityIcons = {
 
 // For Room Details Page
 export const roomCommonData = [
-    { icon: assets.homeIcon, title: "Clean & Safe Stay", description: "A well-maintained and hygienic space just for you." },
-    { icon: assets.badgeIcon, title: "Enhanced Cleaning", description: "This host follows Staybnb's strict cleaning standards." },
-    { icon: assets.locationFilledIcon, title: "Excellent Location", description: "90% of guests rated the location 5 stars." },
-    { icon: assets.heartIcon, title: "Smooth Check-In", description: "100% of guests gave check-in a 5-star rating." },
+  {
+    icon: assets.homeIcon,
+    title: "Không Gian Sạch Sẽ & An Toàn",
+    description: "Không gian được vệ sinh kỹ lưỡng và bảo trì chu đáo, dành riêng cho bạn.",
+  },
+  {
+    icon: assets.badgeIcon,
+    title: "Vệ Sinh Tăng Cường",
+    description: "Chủ nhà tuân thủ nghiêm ngặt các tiêu chuẩn vệ sinh của Staybnb.",
+  },
+  {
+    icon: assets.locationFilledIcon,
+    title: "Vị Trí Tuyệt Vời",
+    description: "90% khách lưu trú đánh giá vị trí 5 sao.",
+  },
+  {
+    icon: assets.heartIcon,
+    title: "Nhận Phòng Dễ Dàng",
+    description: "100% khách hàng đánh giá quy trình nhận phòng 5 sao.",
+  },
 ];
+
 
 // User Dummy Data
 export const userDummyData = {
@@ -134,8 +197,8 @@ export const userDummyData = {
 // Hotel Dummy Data
 export const hotelDummyData = {
     "_id": "67f76393197ac559e4089b72",
-    "name": "Urbanza Suites",
-    "address": "Main Road  123 Street , 23 Colony",
+    "name": "Khách Sạn Urbanza Suites",
+    "address": "Đường Chính, Số 123, Khu 23",
     "contact": "+0123456789",
     "owner": userDummyData,
     "city": "New York",
@@ -146,57 +209,55 @@ export const hotelDummyData = {
 
 // Rooms Dummy Data
 export const roomsDummyData = [
-    {
-        "_id": "67f7647c197ac559e4089b96",
-        "hotel": hotelDummyData,
-        "roomType": "Double Bed",
-        "pricePerNight": 399,
-        "amenities": ["Room Service", "Mountain View", "Pool Access"],
-        "images": [roomImg1, roomImg2, roomImg3, roomImg4],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:26:04.013Z",
-        "updatedAt": "2025-04-10T06:26:04.013Z",
-        "__v": 0
-    },
-    {
-        "_id": "67f76452197ac559e4089b8e",
-        "hotel": hotelDummyData,
-        "roomType": "Double Bed",
-        "pricePerNight": 299,
-        "amenities": ["Room Service", "Mountain View", "Pool Access"],
-        "images": [roomImg2, roomImg3, roomImg4, roomImg1],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:25:22.593Z",
-        "updatedAt": "2025-04-10T06:25:22.593Z",
-        "__v": 0
-    },
-    {
-        "_id": "67f76406197ac559e4089b82",
-        "hotel": hotelDummyData,
-        "roomType": "Double Bed",
-        "pricePerNight": 249,
-        "amenities": ["Free WiFi", "Free Breakfast", "Room Service"],
-        "images": [roomImg3, roomImg4, roomImg1, roomImg2],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:24:06.285Z",
-        "updatedAt": "2025-04-10T06:24:06.285Z",
-        "__v": 0
-    },
-    {
-        "_id": "67f763d8197ac559e4089b7a",
-        "hotel": hotelDummyData,
-        "roomType": "Single Bed",
-        "pricePerNight": 199,
-        "amenities": ["Free WiFi", "Room Service", "Pool Access"],
-        "images": [roomImg4, roomImg1, roomImg2, roomImg3],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:23:20.252Z",
-        "updatedAt": "2025-04-10T06:23:20.252Z",
-        "__v": 0
-    }
-]
-
-
+  {
+    _id: "67f7647c197ac559e4089b96",
+    hotel: hotelDummyData,
+    roomType: "Phòng Giường Đôi",
+    pricePerNight: 399,
+    amenities: ["Dịch vụ phòng", "Tầm nhìn ra núi", "Truy cập hồ bơi"],
+    images: [roomImg1, roomImg2, roomImg3, roomImg4],
+    isAvailable: true,
+    createdAt: "2025-04-10T06:26:04.013Z",
+    updatedAt: "2025-04-10T06:26:04.013Z",
+    __v: 0,
+  },
+  {
+    _id: "67f76452197ac559e4089b8e",
+    hotel: hotelDummyData,
+    roomType: "Phòng Giường Đôi",
+    pricePerNight: 299,
+    amenities: ["Dịch vụ phòng", "Tầm nhìn ra núi", "Truy cập hồ bơi"],
+    images: [roomImg2, roomImg3, roomImg4, roomImg1],
+    isAvailable: true,
+    createdAt: "2025-04-10T06:25:22.593Z",
+    updatedAt: "2025-04-10T06:25:22.593Z",
+    __v: 0,
+  },
+  {
+    _id: "67f76406197ac559e4089b82",
+    hotel: hotelDummyData,
+    roomType: "Phòng Giường Đôi",
+    pricePerNight: 249,
+    amenities: ["Wi-Fi miễn phí", "Bữa sáng miễn phí", "Dịch vụ phòng"],
+    images: [roomImg3, roomImg4, roomImg1, roomImg2],
+    isAvailable: true,
+    createdAt: "2025-04-10T06:24:06.285Z",
+    updatedAt: "2025-04-10T06:24:06.285Z",
+    __v: 0,
+  },
+  {
+    _id: "67f763d8197ac559e4089b7a",
+    hotel: hotelDummyData,
+    roomType: "Phòng Giường Đơn",
+    pricePerNight: 199,
+    amenities: ["Wi-Fi miễn phí", "Dịch vụ phòng", "Truy cập hồ bơi"],
+    images: [roomImg4, roomImg1, roomImg2, roomImg3],
+    isAvailable: true,
+    createdAt: "2025-04-10T06:23:20.252Z",
+    updatedAt: "2025-04-10T06:23:20.252Z",
+    __v: 0,
+  },
+];
 
 // User Bookings Dummy Data
 export const userBookingsDummyData = [
